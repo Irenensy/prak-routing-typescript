@@ -9,7 +9,7 @@ const users = [
      { id: 1, name: "Irene"},
      { id: 2, name: "Nasya"},
      { id: 3, name: "Azalia"},
-]
+];
 const server = http.createServer((req, res)=>{
      const url = req.url || "";
      const method = req.method;
